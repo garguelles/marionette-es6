@@ -10,8 +10,8 @@ var isProduction = environment === 'production';
 var webpackConfig = require('./webpack.config.js')[environment];
 
 var port = $.util.env.port || 1337;
-var src = 'src/';
-var dist = 'dist/';
+var src = 'client/src/';
+var dist = 'client/dist/';
 
 var autoprefixerBrowsers = [
   'ie >= 9',
